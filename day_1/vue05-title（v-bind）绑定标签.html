@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>绑定</title>
+</head>
+
+<body>
+	<!--script src="https://unpkg.com/vue"></script-->
+    
+    <!--开发环境版本，包含了有帮助的命令行警告-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+   
+     <div id="demo">
+     	<ol>
+        	<li v-for='list in lists' v-bind:title='message'>{{list.text}}</li>
+        </ol>
+    </div>
+    
+    <script type="text/javascript">
+	//设置属性值
+    var myDemo=new Vue({
+			el:'#demo',
+			data:{
+				lists:[
+					{text:'hello world'},
+					{text:'hello Erya'},
+					{text:'hello Shylot'}
+				],
+				message:'页面加载于'+new Date().toLocaleString()
+			}
+	})
+	
+	//添加新项目
+	myDemo.lists.push({text:'new item'})
+		
+    </script>
+</body>
+</html>

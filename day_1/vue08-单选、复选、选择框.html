@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>单选、复选、选择框</title>
+</head>
+
+<body>
+
+<!--script src="https://unpkg.com/vue"></script--> 
+
+<!--开发环境版本，包含了有帮助的命令行警告--> 
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+
+<!--
+    	为了让用户和你的应用进行交互，我们可以用 v-on 指令
+    添加一个事件监听器，通过它调用在 Vue 实例中定义的方法
+       涉及到：methods, v-on:click, this, function
+    -->
+
+<div id="demo">
+	<h2>单选按钮</h2>
+	<input type="radio" id="one" value="One" v-model="check0">
+	<label for="one">One</label>
+	<input type="radio" id="two" value="Two" v-model="check0">
+	<label for="two">Two</label>
+	<input type="radio" id="three" value="Three" v-model="check0">
+	<label for="three">Three</label>
+	<br>
+	<span>checks names:    {{check0}}</span> 
+	<br>
+	
+	<h2>单个复选框</h2>
+	<input type="checkbox" id="myCheckbox1" v-model="check1">
+	<label for="myCheckbox1">{{check1}}</label>
+	<br>
+		
+	<h2>复选框</h2>
+	<input type="checkbox" id="tom" value="Tom" v-model="check3">
+	<label for="tom">Tom</label>
+	<input type="checkbox" id="jack" value="Jack" v-model="check3">
+	<label for="jack">Jack</label>
+	<input type="checkbox" id="marry" value="Marry" v-model="check3">
+	<label for="marry">Marry</label>
+	<br>
+	<span>checks names:{{check3}}</span> 
+	<br>
+	
+	<h2>单选选择框</h2>
+		<select v-model="select0">
+			<option disabled value="">请选择</option>
+			<option>A</option>
+			<option>B</option>
+			<option>C</option>
+		</select>
+	<br>
+	<span>selected:{{select0}}</span> 
+	<br>
+	
+	
+	<h2>单选选择框(v-for实现)</h2>
+		<select v-model="select1">
+			<option disabled value="">请选择</option>
+			<option v-for='c in check2'>{{c.name}}</option>
+		</select>
+	<br>
+	<span>selected:{{select1}}</span> 
+	<br>
+	
+	<h2>多选选选择框</h2>
+		<select v-model="select2" multiple>
+			<option disabled value="">请选择</option>
+			<option>A</option>
+			<option>B</option>
+			<option>C</option>
+		</select>
+	<br>
+	<span>selected:{{select2}}</span> 
+	<br>
+	
+	
+	<h2>多选选择框(v-for实现)</h2>
+		<select v-model="select3" multiple>
+			<option disabled value="">请选择</option>
+			<option v-for='c in check2'>{{c.name}}</option>
+		</select>
+	<br>
+	<span>selected:{{select3}}</span> 
+	<br>
+	
+</div>
+
+
+<script type="text/javascript">
+	//设置属性值
+    var myDemo=new Vue({
+			el:'#demo',
+			data:{
+				check:[
+					{value:"one"},
+					{value:"two"},
+					{value:"three"}
+				],
+				check0:[],
+				check1:false,
+				check2:[
+					{name:"Tom"},
+					{name:"Jack"},
+					{name:"Marry"}
+				],
+				check3:[],
+				select0:[],
+				select1:[],
+				select2:[],
+				select3:[]
+			}
+	})
+		
+    </script>
+</body>
+</html>

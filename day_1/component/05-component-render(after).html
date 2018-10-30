@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>template-render(after)</title>
+
+</head>
+
+<body>
+
+	<!--script src="https://unpkg.com/vue"></script-->
+    
+    <!--开发环境版本，包含了有帮助的命令行警告-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   
+	 体现HTML中自定义组件，将内容插入Vue中component组建中的 slot(插槽)
+	 <div id="demo">
+		<my-component :level=1>  Hello World</my-component>
+		<my-component :level=2> 你好，世界</my-component>
+		<my-component :level=3>This is a beautful world !</my-component>
+		<my-component :level=4></my-component>
+	 </div>
+    
+    <script type="text/javascript">
+	//设置属性值
+  		Vue.component('my-component',{
+			render: function(createElement){
+				return createElement(
+					'h'+this.level,  // HTML 标签名称
+					this.$slots.default  //子组件中的阵列
+				)
+			},
+			props: {
+					level: {
+						  type: Number,
+						  required: true
+					}
+			}
+	})
+		
+	new Vue({
+		el:'#demo'	
+	})
+    </script>
+</body>
+</html>
+

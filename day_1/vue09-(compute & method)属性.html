@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>compute & method</title>
+</head>
+
+<body>
+
+	<!--script src="https://unpkg.com/vue"></script-->
+    
+    <!--开发环境版本，包含了有帮助的命令行警告-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    
+    <!--
+    	compute和method都是带有方法，它们的效果相似，
+		但是 compute的响应是不需要触发的，而method需要触发
+    -->
+   
+     <div id="demo">
+		<h2>测试method属性</h2>
+		<button @click='fun1'>method</button>
+		<br>
+		<p>{{method}}</p>
+		
+		
+		
+		<h2>测试 compute 属性</h2>
+		<button @click='fun2'>compute</button>
+		<p>{{compute}}</p>
+    </div>
+    
+    
+    
+    
+    <script type="text/javascript">
+	//设置属性值
+    var myDemo=new Vue({
+			el:'#demo',
+			data:{
+				method:'',
+				compute:''
+			},
+			methods:{
+				fun1:function(){
+					this.method = "Hello Method ! "
+				}
+			},
+			computed:{
+				fun2:function(){
+					this.compute = "Hello Compute ! " 
+				}
+			}
+	})
+		
+    </script>
+</body>
+</html>

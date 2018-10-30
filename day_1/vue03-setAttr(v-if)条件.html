@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>条件</title>
+</head>
+
+<body>
+	<!--script src="https://unpkg.com/vue"></script-->
+    
+    <!--开发环境版本，包含了有帮助的命令行警告-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+   
+     <div id="demo">
+    	<p v-if='seen'>i have seen you</p>
+    </div>
+    
+    <script type="text/javascript">
+	//设置属性值
+    var myDemo=new Vue({
+			el:'#demo',
+			data:{
+				seen:true//seen 同样是自定义
+			}
+	})
+	
+	//修改属性值
+	//myDemo.seen=false
+		
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>侦听属性（watch)</title>
+</head>
+
+<body>
+
+	<!--script src="https://unpkg.com/vue"></script-->
+    
+    <!--开发环境版本，包含了有帮助的命令行警告-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    
+    <!--
+    	侦听那些被跟踪的变量的变化情况，也可好似自定方法，
+		详情可查看官方：https://cn.vuejs.org/v2/api/#vm-watch
+    -->
+   
+     <div id="demo">
+	 	秒<input type="text" v-model='second'>
+		分<input type="text" v-model='minute'>
+    </div>
+    
+    <script type="text/javascript">
+	//设置属性值
+    var myDemo=new Vue({
+			el:'#demo',
+			data:{
+				second:'',
+				minute:''
+			},
+			watch:{
+				second:function(value){
+					this.second = value
+					this.minute= value/60
+				},
+				minute:function(value){
+					this.second = value*60
+					this.minute = value
+				}
+			}
+	})
+		
+    </script>
+</body>
+</html>

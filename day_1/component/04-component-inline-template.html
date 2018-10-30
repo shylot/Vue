@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>template-inline-template</title>
+</head>
+
+<body>
+
+	<!--script src="https://unpkg.com/vue"></script-->
+    
+    <!--开发环境版本，包含了有帮助的命令行警告-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+   
+     <div id="demo">
+	 	<my-component inline-template>
+			<button @click="count++">You Click Me {{count}} Times!</button>
+		</my-component>
+		
+		<my-component inline-template>
+			<button @click="count++">You Click Me {{count}} Times!</button>
+		</my-component>
+	 </div>
+    
+    <script type="text/javascript">
+	//设置属性值
+  		Vue.component('my-component',{
+			data:function(){
+				return {count:0}
+			}
+	})
+		
+	new Vue({
+		el:'#demo'	
+	})
+    </script>
+</body>
+</html>
+

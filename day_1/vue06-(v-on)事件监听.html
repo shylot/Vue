@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>事件监听</title>
+</head>
+
+<body>
+	<!--script src="https://unpkg.com/vue"></script-->
+    
+    <!--开发环境版本，包含了有帮助的命令行警告-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    
+    <!--
+    	为了让用户和你的应用进行交互，我们可以用 v-on 指令
+    添加一个事件监听器，通过它调用在 Vue 实例中定义的方法
+       涉及到：methods, v-on:click, this, function
+    -->
+   
+     <div id="demo">
+     	<p>{{message}}</p>
+        <button v-on:click='onClickButton'>点击</button>
+    </div>
+    
+    <script type="text/javascript">
+	//设置属性值
+    var myDemo=new Vue({
+			el:'#demo',
+			data:{
+				message:'页面加载于'+new Date().toLocaleString()
+			},
+			methods:{//固定
+				onClickButton:function(){//自定义方法名
+					this.message='按钮点击于'+new Date().toLocaleString()
+				}
+			}
+	})
+		
+    </script>
+</body>
+</html>

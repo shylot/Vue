@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>template-render(before)</title>
+</head>
+
+<body>
+
+	<!--script src="https://unpkg.com/vue"></script-->
+    
+    <!--开发环境版本，包含了有帮助的命令行警告-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	
+	
+    <script type="text/x-template" id="myTemplate">
+		  <h1 v-if="level === 1">
+			<slot>你好，中国！</slot>
+		  </h1>
+		  <h2 v-else-if="level === 2">
+			<slot></slot>
+		  </h2>
+		  <h3 v-else-if="level === 3">
+			<strong> Hello Erya,
+			<slot></slot>
+		  </h3>
+		  <h4 v-else-if="level === 4">
+			<slot>你好，武汉！</slot>
+		  </h4>
+	</script>
+   
+     <div id="demo">
+	 	<!-- 当模板中的 slot 不为空时：组件中的内容会覆盖模板中的 solt 内容 -->
+	 	<my-component :level=1>  Hello World</my-component>
+		<!-- 当模板中的 slot 为空时：组件中的内容会插入模板中的 slot -->
+		<my-component :level=2> 你好，世界</my-component>
+		<!--当模板中还包含除了 slot 以外其他的文本内容是，则会与组件中的内容进行拼接：组件中的内容插入模板中的 slot-->
+		<my-component :level=3>This is a beautful world !</my-component>
+		<!--组件中的内容为空时，直接显示模板中的 slot-->
+		<my-component :level=4></my-component>
+	 </div>
+    
+    <script type="text/javascript">
+	//设置属性值
+  		Vue.component('my-component',{
+			template: '#myTemplate',
+			props: {
+					level: {
+						  type: Number,
+						  required: true
+					}
+			}
+
+	})
+		
+	new Vue({
+		el:'#demo'	
+	})
+    </script>
+</body>
+</html>
+
