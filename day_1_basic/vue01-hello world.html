@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>hello world</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="demo">
+    	<p>{{info}}</p>  <!--对应data中的info-->
+    </div>
+
+    <div class="demo1">
+        <h4 v-bind:title="message">{{message}}</h4>
+    </div>
+</body>
+
+<script type="text/javascript">
+    var myDemo=new Vue({
+        el:'#demo',				//el 即element表示目标标签
+        data:{						//数据
+            info:'hello world'		// info是自定义
+        }
+    });
+    myDemo.info='new ';
+
+    var myDemo1 = new Vue({
+        el:'.demo1',
+        data: {
+            message:'this is a class element message'
+        }
+    });
+</script>
+
+</html>
