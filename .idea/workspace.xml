@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04d130b-6be2-4f00-a015-a6a82a6c1491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day_1_basic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_1_basic/vue01-hello world.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_2_beauty/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_2_beauty/beauty01-animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/component/01-component-template-String.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/component/01-component-template-String.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/component/02-component-template-HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/component/02-component-template-HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/component/03-component-x-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/component/03-component-x-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/component/04-component-inline-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/component/04-component-inline-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/component/05-component-render(after).html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/component/05-component-render(after).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/component/05-component-render(before).html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/component/05-component-render(before).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue01-hello world.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue02-change.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue02-change.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue03-setAttr(v-if)条件.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue03-setAttr(v-if)条件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue04-setList(v-for)循环.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue04-setList(v-for)循环.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue05-title（v-bind）绑定标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue05-title（v-bind）绑定标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue06-(v-model)表单-应用状态双向绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue06-(v-model)表单-应用状态双向绑定.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue06-(v-on)事件监听.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue06-(v-on)事件监听.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue07-(v-model)表单输入绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue07-(v-model)表单输入绑定.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue08-单选、复选、选择框.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue08-单选、复选、选择框.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue09-(compute &amp; method)属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue09-(compute &amp; method)属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue10-(component)组件复用-基本.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue10-(component)组件复用-基本.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue11-(watch)监听属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue11-(watch)监听属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_1/vue12-(slot)替代分发内容.html" beforeDir="false" afterPath="$PROJECT_DIR$/day_1_basic/vue12-(slot)替代分发内容.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_2_beauty/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/day_2_beauty/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_2_beauty/beauty01-animation.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +22,7 @@
     <session id="2048477909">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="2" />
@@ -49,50 +30,94 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
-          <entry key="md" value="3" />
+          <entry key="css" value="3" />
+          <entry key="html" value="8" />
+          <entry key="js" value="5" />
+          <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="Markdown" value="3" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="5" />
+          <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="208" />
-          <entry key="md" value="367" />
+          <entry key="css" value="188" />
+          <entry key="html" value="560" />
+          <entry key="js" value="82" />
+          <entry key="md" value="2522" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="208" />
-          <entry key="Markdown" value="367" />
+          <entry key="CSS" value="188" />
+          <entry key="HTML" value="560" />
+          <entry key="JavaScript" value="82" />
+          <entry key="Markdown" value="2522" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day_2_beauty/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.8235294">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="93">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day_2_beauty/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="678">
+                    <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -107,6 +132,11 @@
         <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/day_1_basic/README.md" />
+        <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-entryexit_listtransitions.html" />
+        <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01.js" />
+        <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.js" />
+        <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.html" />
+        <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.css" />
         <option value="$PROJECT_DIR$/day_2_beauty/README.md" />
       </list>
     </option>
@@ -118,10 +148,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2105" />
-    <option name="y" value="132" />
-    <option name="width" value="1600" />
-    <option name="height" value="860" />
+    <option name="x" value="1998" />
+    <option name="y" value="173" />
+    <option name="width" value="1333" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -143,6 +173,12 @@
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
               <item name="day_2_beauty" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="day_2_beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="beauty01-animation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,9 +189,18 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/HTML+CSS/myCode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git-respo\Vue\day_2_beauty\beauty01-animation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git-respo\Vue\day_2_beauty\beauty01-animation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,6 +214,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="beauty01-进入离开-列表过度.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Vue/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.beauty01-进入离开-列表过度.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -180,18 +235,17 @@
       <option name="presentableId" value="Default" />
       <updated>1540888064745</updated>
       <workItem from="1540888068887" duration="831000" />
-      <workItem from="1540947769833" duration="1688000" />
+      <workItem from="1540947769833" duration="14216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2519000" />
+    <option name="totallyTimeSpent" value="15047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-5" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,24 +271,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day_1_basic/vue01-hello world.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day_1_basic/vue03-setAttr(v-if)条件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day_2_beauty/beauty01-animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -258,13 +298,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day_1_basic/vue01-hello world.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day_2_beauty/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <first_editor relative-caret-position="678">
+            <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

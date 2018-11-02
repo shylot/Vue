@@ -1,0 +1,18 @@
+.singleElement_Component_fade-enter-active, .singleElement_Component_fade-leave-active{
+    transition: opacity 0.8s;
+}
+.singleElement_Component_fade-enter, .singleElement_Component_fade-leave-to{
+    opacity: 0;
+}
+
+
+.css-fade-enter-active {
+    transition: all .3s ease;
+}
+.css-fade-leave-active{
+    transition: all 0.8s cubic-bezier(1.0,0.5,0.8,1.0);
+}
+.css-fade-enter, .css-fade-leave-to{
+    transform: translateX(100px);
+    opacity: 0;
+}

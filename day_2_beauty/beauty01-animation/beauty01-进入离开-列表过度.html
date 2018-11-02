@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>进入/离开 & 列表过度</title>
+    <link rel="stylesheet" href="beauty01-进入离开-列表过度.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="contianer">
+        <!--单元素/组件的过度-->
+        <div id="singleElement_Component">
+            <h3>{{title}}</h3>
+
+            <button v-on:click="show =! show">
+                single element & component transition
+            </button>
+
+            <transition name="singleElement_Component_fade">
+                <p v-if="show">Hello single element & component</p>
+            </transition>
+        </div>
+
+        <!--CSS过度-->
+        <div id="css">
+            <h3>{{title}}</h3>
+
+            <button @click="show =! show">
+                CSS transition
+            </button>
+
+            <transition name="css-fade">
+                <p v-if="show">Hello CSS</p>
+            </transition>
+        </div>
+
+    </div>
+
+
+</body>
+    <script src="beauty01-进入离开-列表过度.js"></script>
+</html>
