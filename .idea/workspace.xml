@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04d130b-6be2-4f00-a015-a6a82a6c1491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day_3_npm/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_3_npm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/day_3_npm/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +31,7 @@
           <entry key="html" value="9" />
           <entry key="js" value="6" />
           <entry key="json" value="1" />
-          <entry key="md" value="7" />
+          <entry key="md" value="8" />
           <entry key="vue" value="1" />
         </counts>
       </usages-collector>
@@ -41,7 +41,7 @@
           <entry key="HTML" value="9" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6" />
-          <entry key="Markdown" value="7" />
+          <entry key="Markdown" value="8" />
           <entry key="Vue.js" value="1" />
         </counts>
       </usages-collector>
@@ -50,7 +50,7 @@
           <entry key="css" value="188" />
           <entry key="html" value="560" />
           <entry key="js" value="82" />
-          <entry key="md" value="3314" />
+          <entry key="md" value="3323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -58,19 +58,31 @@
           <entry key="CSS" value="188" />
           <entry key="HTML" value="560" />
           <entry key="JavaScript" value="82" />
-          <entry key="Markdown" value="3314" />
+          <entry key="Markdown" value="3323" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day_3_npm/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="289">
-                <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <first_editor relative-caret-position="175">
+                <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="304">
+                <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -96,7 +108,6 @@
         <option value="$PROJECT_DIR$/day_1/vue01-hello world.html" />
         <option value="$PROJECT_DIR$/day_1/vue03-setAttr(v-if)条件.html" />
         <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/day_1_basic/README.md" />
         <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-entryexit_listtransitions.html" />
         <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01.js" />
@@ -105,6 +116,7 @@
         <option value="$PROJECT_DIR$/day_2_beauty/beauty01-animation/beauty01-进入离开-列表过度.css" />
         <option value="$PROJECT_DIR$/day_2_beauty/README.md" />
         <option value="$PROJECT_DIR$/day_3_npm/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -213,15 +225,16 @@
       <updated>1540888064745</updated>
       <workItem from="1540888068887" duration="831000" />
       <workItem from="1540947769833" duration="14216000" />
-      <workItem from="1541383653529" duration="2864000" />
+      <workItem from="1541383653529" duration="3098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17911000" />
+    <option name="totallyTimeSpent" value="18145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -272,16 +285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -361,8 +364,18 @@
     <entry file="file://$PROJECT_DIR$/day_3_npm/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="289">
-            <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <first_editor relative-caret-position="175">
+            <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
